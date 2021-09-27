@@ -1,0 +1,34 @@
+{
+    "dev": {
+        "aws_region": "us-east-2",
+        "django_settings": "litap.settings",
+        "profile_name": "default",
+        "project_name": "litap",
+        "runtime": "python3.8",
+        "apigateway_enabled": true,
+        "delete_local_zip": true,
+        "s3_bucket": "litap-api-src",
+        "binary_support" : false,
+        "method_header_types": [
+            "accept",
+            "accept-encoding",
+            "Content-Type",
+            "dnt",
+            "origin",
+            "user-agent",
+            "x-csrftoken",
+            "x-requested-with",
+            "Location",
+            "Status",
+            "X-Frame-Options",
+            "Set-Cookie",
+            "Authorization",
+            "Access-Control-Allow-Origin",
+            "Access-Control-Allow-Headers",
+            "Access-Control-Allow-Methods",
+            "Access-Control-Allow-Credentials"
+          ],
+          "cors": true,
+          "enable_cors": true
+    }
+}
